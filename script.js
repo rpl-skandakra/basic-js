@@ -99,6 +99,20 @@
 // const sudahLulus = true;
 // console.log(!sudahLulus);
 
+// &&
+// const a = 3;
+// const b = 5;
+// const c = 4;
+// true = 1
+// false = 0
+// console.log(a < b && b > c);
+// console.log(Math);
+
+// ||
+// const a = 3;
+// const b = -2;
+// console.log(a > 0 || b > 0);
+
 /**
  * 4. Kondisi
  */
