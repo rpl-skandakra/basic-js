@@ -1,6 +1,6 @@
 # Basic JavaScript
 
-## Latihan
+## Latihan 1
 
 Buat 8 rumus bangun datar luas & keliling menggunakan function di JavaScript:
 
@@ -17,6 +17,12 @@ Dan 2 rumus volume & luas permukaan bangun ruang:
 
 - Kubus
 - Balok
+
+## Latihan 2
+
+Buat halaman html untuk menghitung rumus seperti di latihan 1.
+
+Contoh: [latihan-2](latihan-2/)
 
 ## Referensi Belajar
 
