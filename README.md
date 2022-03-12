@@ -27,3 +27,4 @@ Contoh: [latihan-2](latihan-2/)
 ## Referensi Belajar
 
 - [hendraaagil.id/blog/berkenalan-dengan-javascript](https://hendraaagil.id/blog/berkenalan-dengan-javascript#sumber-belajar)
+- [JS DOM (Document Object Model) MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
