@@ -13,58 +13,58 @@ const segitiga = {
 
 const inputAlas = document.getElementById('alas');
 const inputTinggi = document.getElementById('tinggi');
-const buttonLuas = document.getElementById('luas');
-const buttonKeliling = document.getElementById('keliling');
-const teksHasil = document.getElementById('hasil');
+const buttonLuasSegitiga = document.getElementById('luas-segitiga');
+const buttonKelilingSegitiga = document.getElementById('keliling-segitiga');
+const teksHasilSegitiga = document.getElementById('hasil-segitiga');
 // const main = document.querySelector('main');
 
-// buttonLuas.addEventListener('click', () => {
+// buttonLuasSegitiga.addEventListener('click', () => {
 //   const alas = Number(inputAlas.value);
 //   const tinggi = Number(inputTinggi.value);
 //   if (alas && tinggi) {
 //     const hasil = segitiga.luas(alas, tinggi);
 //     const elemenHasil = document.createElement('p');
-//     const teksHasil = document.createTextNode('Hasil: ' + hasil);
+//     const teksHasilSegitiga = document.createTextNode('Hasil: ' + hasil);
 //     elemenHasil.setAttribute('id', 'hasil');
-//     elemenHasil.appendChild(teksHasil);
+//     elemenHasil.appendChild(teksHasilSegitiga);
 //     main.appendChild(elemenHasil);
 //   } else {
 //     alert('Silahkan masukkan alas dan tinggi');
 //   }
 // });
 
-// buttonKeliling.addEventListener('click', () => {
+// buttonKelilingSegitiga.addEventListener('click', () => {
 //   const alas = Number(inputAlas.value);
 //   const tinggi = Number(inputTinggi.value);
 //   if (alas && tinggi) {
 //     const hasil = segitiga.keliling(alas, tinggi);
 //     const elemenHasil = document.createElement('p');
-//     const teksHasil = document.createTextNode('Hasil: ' + hasil);
+//     const teksHasilSegitiga = document.createTextNode('Hasil: ' + hasil);
 //     elemenHasil.setAttribute('id', 'hasil');
-//     elemenHasil.appendChild(teksHasil);
+//     elemenHasil.appendChild(teksHasilSegitiga);
 //     main.appendChild(elemenHasil);
 //   } else {
 //     alert('Silahkan masukkan alas dan tinggi');
 //   }
 // });
 
-buttonLuas.addEventListener('click', () => {
+buttonLuasSegitiga.addEventListener('click', () => {
   const alas = Number(inputAlas.value);
   const tinggi = Number(inputTinggi.value);
   if (alas && tinggi) {
     const hasil = segitiga.luas(alas, tinggi);
-    teksHasil.textContent = 'Hasil: ' + hasil;
+    teksHasilSegitiga.textContent = 'Hasil: ' + hasil;
   } else {
     alert('Silahkan masukkan alas dan tinggi');
   }
 });
 
-buttonKeliling.addEventListener('click', () => {
+buttonKelilingSegitiga.addEventListener('click', () => {
   const alas = Number(inputAlas.value);
   const tinggi = Number(inputTinggi.value);
   if (alas && tinggi) {
     const hasil = segitiga.keliling(alas, tinggi);
-    teksHasil.textContent = 'Hasil: ' + hasil;
+    teksHasilSegitiga.textContent = 'Hasil: ' + hasil;
   } else {
     alert('Silahkan masukkan alas dan tinggi');
   }
