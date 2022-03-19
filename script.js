@@ -32,13 +32,16 @@
 // const nama = "Hendra";
 // const nama = 'Agil';
 
-// Number
+// Number -> adalah angka
 // const umur = 18;
 
-// Boolean
-// const sudahLulus = true |
+// Boolean -> true atau false
+// const sudahLulus = true;
 
 // Array
+/**
+ * Index array mulai dari 0
+ */
 // const bahasa = ['HTML', 'CSS', true, 18, 'JS'];
 // console.log(bahasa);
 // console.log(bahasa[1]);
@@ -50,16 +53,26 @@
 //   'sudah-lulus': true
 // }
 // console.log(identitas);
+// console.log(identitas['sudah-lulus'])
+// console.log(identitas.nama)
 
 // identitas.sekolah = 'SMKN 2 Karanganyar';
 // console.log(identitas);
 
+// Ini komentar
 /**
  * Ini komentar
+ * Fungsi komentar:
+ * 1. Memberi keterangan
+ * 2. Menonaktifkan kode
  */
 
 /**
  * 3. Operator
+ */
+
+/**
+ * Operator Aritmatika
  */
 // +
 // const nomorA = 10;
@@ -85,6 +98,9 @@
 // const hasil = nomorA / nomorB;
 // console.log(hasil);
 
+/**
+ * Operator perbandingan
+ */
 // ===
 // const nomorA = 10;
 // const nomorB = '10';
@@ -93,22 +109,23 @@
 // !==
 // const nomorA = 10;
 // const nomorB = '10';
-// console.log(nomorA != nomorB);
+// console.log(nomorA !== nomorB);
 
 // !
 // const sudahLulus = true;
 // console.log(!sudahLulus);
 
-// &&
+// && -> dan (AND)
 // const a = 3;
 // const b = 5;
 // const c = 4;
 // true = 1
 // false = 0
+// console.log(a < b);
 // console.log(a < b && b > c);
 // console.log(Math);
 
-// ||
+// || -> atau (OR)
 // const a = 3;
 // const b = -2;
 // console.log(a > 0 || b > 0);
