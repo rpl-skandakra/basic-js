@@ -44,7 +44,7 @@
  */
 // const bahasa = ['HTML', 'CSS', true, 18, 'JS'];
 // console.log(bahasa);
-// console.log(bahasa[1]);
+// console.log(bahasa[4]);
 
 // Object
 // const identitas = {
@@ -53,6 +53,10 @@
 //   'sudah-lulus': true
 // }
 // console.log(identitas);
+// for (const property in identitas) {
+//   const value = identitas[property];
+//   console.log(`${property}: ${value}`);
+// }
 // console.log(identitas['sudah-lulus'])
 // console.log(identitas.nama)
 
@@ -134,8 +138,8 @@
  * 4. Kondisi
  */
 // const sudahLulus = true;
-// const nomorA = '11';
-// const nomorB = '10';
+// const nomorA = 11;
+// const nomorB = '11';
 
 // if else
 // if (nomorA === nomorB) {
@@ -154,7 +158,7 @@
 //     break;
 
 //   default:
-//     console.log('Nomor A itu bukan angka');    
+//     console.log('Nomor A itu bukan angka');
 //     break;
 // }
 
