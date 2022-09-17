@@ -6,4 +6,9 @@
 
 - [Aync Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 
-- [JSON Placeholder](https://jsonplaceholder.typicode.com/)
+
+## Latihan
+
+Buat tampilan dari API: [JSON Placeholder](https://jsonplaceholder.typicode.com/). Coba dulu yang di section Resources.
+
+Cara fetch datanya sama seperti sebelumnya: [script.js](script.js#L35-L45)
