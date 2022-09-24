@@ -6,9 +6,12 @@
 
 - [Aync Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 
-
 ## Latihan
 
 Buat tampilan dari API: [JSON Placeholder](https://jsonplaceholder.typicode.com/). Coba dulu yang di section Resources.
 
 Cara fetch datanya sama seperti sebelumnya: [script.js](script.js#L35-L45)
+
+## Sumber API
+
+[farizdotid.github.io/DAFTAR-API-LOKAL-INDONESIA](https://farizdotid.github.io/DAFTAR-API-LOKAL-INDONESIA/#/)
