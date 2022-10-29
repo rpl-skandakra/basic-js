@@ -28,6 +28,7 @@
 /**
  * 2. Tipe data
  */
+// Case style: https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841
 // String
 // const nama = "Hendra";
 // const nama = 'Agil';
@@ -50,15 +51,15 @@
 // const identitas = {
 //   nama: 'Hendra',
 //   umur: 18,
-//   'sudah-lulus': true
-// }
+//   sudah_lulus: true,
+// };
 // console.log(identitas);
 // for (const property in identitas) {
 //   const value = identitas[property];
 //   console.log(`${property}: ${value}`);
 // }
-// console.log(identitas['sudah-lulus'])
-// console.log(identitas.nama)
+// console.log(identitas.sudah_lulus);
+// console.log(identitas.nama);
 
 // identitas.sekolah = 'SMKN 2 Karanganyar';
 // console.log(identitas);
@@ -107,12 +108,12 @@
  */
 // ===
 // const nomorA = 10;
-// const nomorB = '10';
+// const nomorB = 10;
 // console.log(nomorA === nomorB);
 
 // !==
 // const nomorA = 10;
-// const nomorB = '10';
+// const nomorB = 10;
 // console.log(nomorA !== nomorB);
 
 // !
@@ -122,11 +123,12 @@
 // && -> dan (AND)
 // const a = 3;
 // const b = 5;
-// const c = 4;
+// const c = 6;
 // true = 1
 // false = 0
 // console.log(a < b);
-// console.log(a < b && b > c);
+// const isOk = a < b && b > c;
+// console.log(isOk);
 // console.log(Math);
 
 // || -> atau (OR)
@@ -138,8 +140,8 @@
  * 4. Kondisi
  */
 // const sudahLulus = true;
-// const nomorA = 11;
-// const nomorB = '11';
+// const nomorA = 1;
+// const nomorB = 11;
 
 // if else
 // if (nomorA === nomorB) {
@@ -165,7 +167,8 @@
 /**
  * 5. Looping / perulangan
  */
-// const bahasa = ['HTML', 'CSS', 'JavaScript'];
+const bahasa = ['HTML', 'CSS', 'JavaScript'];
+// console.log(bahasa.length);
 // for (let i = 0; i < bahasa.length; i++) {
 //   console.log(bahasa[i]);
 // }
@@ -174,21 +177,21 @@
 // do {
 //   console.log('DO WHILE >>', i);
 //   i++;
-// } while (i < 2);
+// } while (i < 0);
 
 // let j = 0;
-// while (j < 2) {
+// while (j < 0) {
 //   console.log('WHILE DO >>', j);
 //   j++;
 // }
 
-// bahasa.forEach(item => {
+// bahasa.forEach((item) => {
 //   console.log(item);
-// })
+// });
 
-// bahasa.map(item => {
+// bahasa.map((item) => {
 //   console.log(item);
-// })
+// });
 
 /**
  * 6. Function / fungsi
@@ -201,7 +204,7 @@
 // Arrow function
 // const pengurangan = (angka1, angka2) => {
 //   return angka1 - angka2;
-// }
+// };
 
 // Anonymous function
 // const operator = {
